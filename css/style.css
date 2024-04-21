@@ -79,6 +79,13 @@ footer {
     width: 35%;
     align-items: center;
   }
+  img.small-item{
+    margin-left: 25%;
+    color: rgb(0, 255, 149);
+    font-size: 125%;
+    width: 15%;
+    align-items: center;
+  }
   aside.item{
     width: fit-content;
     border-radius: 2%;
@@ -103,7 +110,7 @@ footer {
   div.item{
     justify-content: center;
     margin: auto;
-    width: 75%;
+    width: fit-content;
     padding: 15px;
   }
   article.item{
@@ -122,7 +129,7 @@ footer {
   }
   section.crafting{
     align-items: end;
-    margin-left: 75%;
+    margin-left: 83.07%;
   }
   table.crafting{
     border-radius: 2%;
