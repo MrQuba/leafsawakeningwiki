@@ -71,6 +71,7 @@ footer {
   img{
     image-rendering: crisp-edges;
     image-rendering: pixelated;
+    align-items: center;
   }
   img.item{
     margin-left: 25%;
@@ -132,8 +133,11 @@ footer {
     margin-left: 83.07%;
   }
   table.crafting{
+    display: flex;
+    width: fit-content;
+    align-items: center;
     border-radius: 2%;
-    border: 5px solid;
+    border: 3px solid;
     border-color: rgb(11, 80, 51);
     background-color: rgb(66, 47, 12);
   }
